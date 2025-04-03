@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+*{
+    margin: 0;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    margin: 7% auto;
+    font-family: "Inter", sans-serif;
+}
+.container{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+}
+.profile h2{
+    margin-top: 30px;
+    color: hsl(0, 0%, 100%);
+}
+.profile h4{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+    color: hsl(75, 94%, 57%);
+}
+.profile p{
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    color: hsl(0, 0%, 100%);
+}
+.profile img{
+    width: 100px;
+    border-radius: 50%;
+}
+ul{
+    list-style: none;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    gap: 15px;
+}
+ul button{
+    width: 250px;
+    text-align: center;
+    height: 35px;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
